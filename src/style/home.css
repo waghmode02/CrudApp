@@ -1,0 +1,79 @@
+.userTable{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgb(0,0,0,0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.addBtn{
+    text-decoration: none;
+    background-color: rgb(0, 9, 128);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgb(0,0,0,0.065);
+    border: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.userTable table{
+width: 100%;
+margin-top: 30px;
+border-collapse: collapse;
+}
+
+.userTable table thead th{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 10px;
+}
+
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+.actionBtn button{
+    border: 0;
+    outline: none;
+    background: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actionBtn a{
+    background: green;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .userTable {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+    .addBtn {
+        font-size: 14px; 
+    }
+
+    .userTable table thead th,
+    .userTable table tbody td {
+        padding: 8px; 
+    }
+    .actionBtn{
+        display: flex;
+        flex-direction: row;
+    }
+    .actionBtn button,
+    .actionBtn a {
+        
+        padding: 6px 8px;
+        margin: 0 5px; 
+        
+    }
+}
